@@ -3,19 +3,19 @@ import SingleItem from './SingleItem';
 import customFetch from './utils';
 const Items = ({ items }) => {
   const {isLoading, data, isError, error} = useQuery({
-    queryKey: ['tasks'], queryFn:() => customFetch.get('/Something'),
+    queryKey: ['tasks'], queryFn:() => customFetch.get('/'),
   }); 
   if (isLoading) {
      return <p style={{margin:'1rem'}}>Loading please wait...</p>
      }
-      // if (isError) {
-      //   return <p style={{ margin: '1rem' }}>Error encounter...</p>
-      // }
-      console.log(error);
-
-      if (error) {
-        return <p style={{ margin: '1rem' }}>{error.message}</p>
+      if (isError) {
+        return <p style={{ margin: '1rem' }}>Error encounter...</p>
       }
+      // console.log(error);
+
+      // if (error) {
+      //   return <p style={{ margin: '1rem' }}>{error.message}</p>
+      // }
 
 
 
