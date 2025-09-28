@@ -95,6 +95,7 @@ CRUD stands for Create, Read, Update, and Delete, which are the basic operations
 #### Docs
 
 [Task API Docs](https://documenter.getpostman.com/view/18152321/2s93RTSDLn)
+}
 
 #### UseEffect Approach
 
