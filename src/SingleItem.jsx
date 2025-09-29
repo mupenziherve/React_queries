@@ -50,6 +50,3 @@ const SingleItem = ({ item }) => {
   );
 };
 export default SingleItem;
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, provident reiciendis in animi, nobis, quo placeat consequatur libero nulla earum soluta molestias! Consectetur quo quos impedit error cum voluptatibus amet?
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ex magni error hic pariatur rem aliquam vitae. Placeat, repudiandae fugit possimus aliquam magni facilis nemo quo ad error dolores quis?
