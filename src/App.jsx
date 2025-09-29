@@ -1,11 +1,7 @@
 import { ToastContainer } from 'react-toastify';
 import Form from './Form';
 import Items from './Items';
-;lllllllllllllllllllllllllllllllllllllmvvvvvvvvvvvvvvvvvvjncxnkvnkxckc
-ccccccccccccccccccccccccccccccccccccccccccccccccccccc
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-ccccccccccccccccccccccccccccccccccccccccccccccc
+
 
 const App = () => {
   return (
