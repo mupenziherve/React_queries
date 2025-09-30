@@ -1,4 +1,4 @@
-import {}
+
 
 export const useFetchTasks = () => {
 
@@ -7,8 +7,6 @@ export const useFetchTasks = () => {
       queryFn: () => customFetch.get('/'),
     }); 
 
-    return {isLoading, isError, data}
-    dbbbbbcccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccslcnkksncvknsknvknskv
-    svdsdvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-    vvvvvvvvvvvvvvvvvvvvvvvvvv
+    return {isLoading, isError, data};
+    
 }
